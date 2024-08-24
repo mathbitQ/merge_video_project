@@ -5,7 +5,7 @@ This merge video project aims to merge multiple videos with ".mp4" file using H2
     - wxWidgets (C++): For developing friendly GUI
     - ffmpeg (C): For processing media file and read metadata from media file
 ## Tools (optional - depending on your usage):
-	- CodeBlock (Tutorial for linking with [wxWidgets](https://www.youtube.com/watch?v=KHkb1XrtseY))
+	- CodeBlock - Tutorial for linking with [wxWidgets](https://www.youtube.com/watch?v=KHkb1XrtseY)
 	- MinGW (Windows version and MSYS2 version)
   	- MSYS2
 ## Operating System: 
