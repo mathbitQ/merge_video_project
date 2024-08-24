@@ -4,7 +4,6 @@ This merge video project aims to merge multiple videos with ".mp4" file using H2
 ## Libraries used:
     - wxWidgets (C++): For developing friendly GUI
     - ffmpeg (C): For processing media file and read metadata from media file
-    -
 ## Operating System: 
 	- Windows (and maybe Linux)
 ## Source code tree simple view:
@@ -12,12 +11,12 @@ This merge video project aims to merge multiple videos with ".mp4" file using H2
 	- Note that I do not upload the ffmpeg and wxWidgets source code, so you have to find them)
 	
 	merge_video_project/
-						|bin/
-							|ffmpeg.exe (You can install FFmpeg executable file [here](https://www.ffmpeg.org/download.html))
-						|lib/
-							|ffmpeg/ (You can install FFmpeg source code [here](https://github.com/FFmpeg/FFmpeg))
-						|resource/ (Images file)
-						|src/ (Source file for merge video project)
+			|bin/
+   			    |ffmpeg.exe (You can install FFmpeg executable file [here](https://www.ffmpeg.org/download.html))
+			|lib/
+   			    |ffmpeg/ (You can install FFmpeg source code [here](https://github.com/FFmpeg/FFmpeg))
+			|resource/ (Images file)
+			|src/ (Source file for merge video project)
 	wxWidgets/ (You can install wxWidgets for C++ [here](https://www.wxwidgets.org/downloads/))
 ## Compiling Guide:
 	1. Compiles wxWidgets (You can use [MinGW](https://winlibs.com/) compiler with MSCVRT environment
