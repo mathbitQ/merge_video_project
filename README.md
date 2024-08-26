@@ -12,16 +12,15 @@ MSYS2
 I use Windows as the main environment. I haven't tested Linux yet.
 ## Source code tree simple view:
 Note that I do not upload the ffmpeg and wxWidgets source code, so you have to find them)
-```
-merge_video_project/
-		|bin/
-		    |ffmpeg.exe (You can install FFmpeg executable file [here](https://www.ffmpeg.org/download.html))
-		|lib/
-		    |ffmpeg/ (You can install FFmpeg source code [here](https://github.com/FFmpeg/FFmpeg))
-		|resource/ (Images file)
-		|src/ (Source file for merge video project)
-wxWidgets/ (You can install wxWidgets for C++ [here](https://www.wxwidgets.org/downloads/))
-```
+
+  - merge_video_project/
+    - bin/
+      - ffmpeg.exe (You can install FFmpeg executable file [here](https://www.ffmpeg.org/download.html))
+    - lib/
+      - ffmpeg/ (ffmpeg compiled source code, you can install FFmpeg source code [here](https://github.com/FFmpeg/FFmpeg))
+    - resource/ (Images file)
+    - src/ (Source file for merge video project)
+  - wxWidgets/ (You can install wxWidgets for C++ [here](https://www.wxwidgets.org/downloads/))
 ## Compiling Guide:
 1. Compiles wxWidgets (You can use [MinGW](https://winlibs.com/) compiler with MSCVRT environment
 or use [Visual Studio](https://visualstudio.microsoft.com/downloads/))
@@ -36,7 +35,7 @@ uses MSYS2 to configure and compile. Then copies libraries (usually ".dll", ".o"
 (These libraries are not available in Windows and these are required from FFmpeg library)
  
 4. Compiles all sources code from **src**. Notes that you should have linked all the required libraries and includes files from
-both wxWidgets and ffmpeg libraries.
+both wxWidgets and FFmpeg libraries.
 	
 ## Linking parameter
 	`-lavformat -lavcodec -lswresample -lswscale -lavutil -lavdevice -lavfilter -lz -lWs2_32 -liconv -lSecur32 -lole32 -lbcrypt -lstrmiids`
